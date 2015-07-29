@@ -42,15 +42,16 @@ Twitter API Library written in JavaScript
 ## 使い方
 基本的に使い方は上の説明コードを見ていただければだいたい分かるかと思いますが……
 1. Twitterのアプリケーション登録をする
-	consumerKey: "", consumerSecret: "", accessToken: "", tokenSecret: "" のセミコロンの間にそれぞれ入力してください。
+	+ consumerKey: "", consumerSecret: "", accessToken: "", tokenSecret: "" のセミコロンの間にそれぞれ入力してください。
 
 1. 必要なもの
-これらをインポートしてください。
-	+ jquery
-	+ googlecode[1](http://oauth.googlecode.com/svn/code/javascript/oauth.js),[2](http://oauth.googlecode.com/svn/code/javascript/sha1.js)で公開されているoauthのjavascriptライブラリ
-	+ TwitterAPI4js.js
+	+ これらをインポートしてください。
+		+ jquery
+		+ googlecode[1](http://oauth.googlecode.com/svn/code/javascript/oauth.js),[2](http://oauth.googlecode.com/svn/code/javascript/sha1.js)で公開されているoauthのjavascriptライブラリ
+		+ TwitterAPI4js.js
 
 1. オブジェクト全体を初期化してください
+
 1. それぞれのAPIに対応した関数が用意されているので、関数を呼び出してください。
 	+ 第一引数はコールバック関数
 	+ 第二引数はTwitterAPIに投げるパラメータJSON
