@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="discription" content="kowaretter twitter client">
+		<title>kowaretter</title>
+		
+		<script src="path_to_jquery/jquery.js"></script>
+		<script src="http://oauth.googlecode.com/svn/code/javascript/oauth.js"></script>
+		<script src="http://oauth.googlecode.com/svn/code/javascript/sha1.js"></script>
+		<script src="js/TwitterAPI4JS.js"></script>
+	</head>
+	
+	<body>
+		<script>
+			var Twitter4JS = new Twitter4JS();
+		</script>
+		
+		<button type="button" onclick="Twitter4JS.statuses_user_timeline('html', {screen_name:'amagasa'});">amagasa</div>
+		<div id="test1"></div>	
+	</body>
+</html>
