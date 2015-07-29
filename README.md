@@ -55,8 +55,10 @@ I made some examples of callback function.
 私のいい加減な英語を再翻訳していただくくらいなら、直接日本語で説明を。
 
 ## 使い方
-基本的に使い方は上の説明コードを見ていただければだいたい分かるかと思いますが……
-1. Twitterのアプリケーション登録をする
+基本的に使い方は上の説明コードを見ていただければだいたい分かるかと思いますが……  
+
+
+1. Twitterのアプリケーション登録をする  
 	1. consumerKey,consumerSecret,accessToken,tokenSecretを取得する
 	1. consumerKey: "", consumerSecret: "", accessToken: "", tokenSecret: "" のセミコロンの間にそれぞれ入力してください。
 
